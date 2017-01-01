@@ -1,0 +1,107 @@
+/*styledivercity.css*/
+
+@font-face /*importation des polices du site*/
+{
+	font-family: 'light';
+	src: url('font/Walkway_SemiBold.ttf');
+
+}
+@font-face {
+	font-family: 'divercity';
+	src: url('font/earthorbiterhalfital.ttf');
+}
+@font-face
+{
+	font-family: 'bolt';
+	src: url('font/Walkway_Black.ttf');
+}
+
+body /*parametre general de toutes les pages, on défini un fond et une police principale */
+{
+	
+	font-family:'light';
+	background-image: url("img/Logo_small.png");
+	background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top right; /* Le fond sera placé en haut à droite */
+    background-color: #C0CBEF;
+	
+
+}
+
+fieldset /*Cadre contenant le formulaire, on utilise une couleur plus claire, et on définit la taille maximum d'un cadre*/
+{
+  background-color:#E9EEFF;
+  max-width:500px;
+  padding:16px;	
+  border-radius: 15px;
+  box-shadow: 3px 3px 3px black;
+}
+legend /*Positionnement des légendes*/
+{
+  margin-bottom:0px;
+  margin-left:16px;
+}
+
+
+header
+{
+	clear: both;
+	size: 200px;
+	text-align: center;
+	background-color: #C0CBEF;
+	box-shadow: 0px 0px 0px black;
+	opacity: 0.9;
+	font-family:'light';
+	
+	
+}
+h1
+{
+	font-family: 'divercity';
+	font-size: 60px;
+
+}
+h2
+{
+	font-family: 'bolt';
+	font-size:30px;
+}
+
+
+h3
+{
+	font-family: 'light';
+}
+
+h4
+{
+	font-family:'divercity';
+	font-size: 65px;
+	text-align: center;
+}
+.span1
+{
+	float: left;
+	
+}
+.span2
+{
+	float: left;
+}
+.span3
+{
+	float: left;
+}
+.span4
+{
+	float: left;
+}
+.span5
+{
+	float: left;
+}
+.span6
+{
+	float: left;
+}
